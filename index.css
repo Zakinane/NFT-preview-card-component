@@ -1,0 +1,143 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: Outfit;
+}
+@media screen and (max-width: 1440px) {
+  /*PC*/
+  .centering {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  /*mob*/
+  .centering {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*changer taille de carte*/
+}
+
+.card {
+  position: relative;
+  display: grid;
+  width: 330px;
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+  grid-template-rows: repeat(5, auto);
+  grid-template-columns: 165px 165px;
+  row-gap: 25px;
+  grid-template-areas:
+    "cube cube"
+    "title title"
+    "text text"
+    "eth days"
+    "name name";
+  background-color: hsl(216, 50%, 16%);
+  -webkit-box-shadow: 15px 17px 5px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 15px 17px 5px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 15px 17px 5px 0px rgba(0, 0, 0, 0.15);
+}
+.cubeImage {
+  grid-area: cube;
+  background: url("images/image-equilibrium.jpg") no-repeat;
+  background-size: cover;
+  justify-self: center;
+  align-self: center;
+  width: 320px;
+  height: 320px;
+  border-radius: 15px;
+}
+.cubeImage:hover {
+  grid-area: cube;
+  justify-self: center;
+  align-self: center;
+  width: 320px;
+  border-radius: 15px;
+  background: url("images/image.png") no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+.title {
+  display: flex;
+  margin: 0px;
+  grid-area: title;
+  color: white;
+}
+.text {
+  display: flex;
+  grid-area: text;
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+}
+.eth {
+  font-weight: bold;
+  display: flex;
+  grid-area: eth;
+  color: hsl(178, 100%, 50%);
+}
+.eth img {
+  padding-right: 5px;
+}
+.days {
+  display: flex;
+  flex-direction: row-reverse;
+  grid-area: days;
+  color: hsl(215, 51%, 70%);
+}
+.days img {
+  padding-right: 3px;
+}
+.name {
+  display: flex;
+  grid-area: name;
+  align-items: center;
+  border-top: 1px hsl(215, 51%, 70%) solid;
+  padding-top: 15px;
+  padding-bottom: 13px;
+  color: hsl(215, 51%, 70%);
+}
+.PP {
+  border: 1.5px white solid;
+  border-radius: 300px;
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+.jules {
+  display: flex;
+  color: white;
+}
+hr {
+  grid-area: hr;
+  height: 1px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+a:link {
+  font-size: large;
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  font-size: large;
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  font-size: large;
+  color: hsl(178, 100%, 50%);
+  text-decoration: none;
+}
+a:active {
+  font-size: large;
+  color: hsl(178, 100%, 50%);
+  text-decoration: none;
+}
