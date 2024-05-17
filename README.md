@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-(./screenshot.png)
-(./screenshot1.png)
+![](./screenshot.png)
+![](./screenshot1.png)
 
 ## My process
 
