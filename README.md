@@ -25,7 +25,6 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot.png)
-![](./screenshot1.png)
 
 ## My process
 
@@ -38,8 +37,6 @@ Users should be able to:
 - Desktop-first workflow
 
 ### What I learned
-
-To see how you can add code snippets, see below:
 
 ```html
 <img class="PP" src="images/image-avatar.png" alt="PP" />Creation of ‎
